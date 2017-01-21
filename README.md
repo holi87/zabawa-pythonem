@@ -1,3 +1,7 @@
 # zabawa-pythonem
-# różne próby z hackerrank, z codingame, z własnych spraw
-# również proste kalkulatory wrzucane na telefon
+## HackerRank
+### 30 Days of Code
+### Python
+### Algorytmy
+### SQL
+## inne
