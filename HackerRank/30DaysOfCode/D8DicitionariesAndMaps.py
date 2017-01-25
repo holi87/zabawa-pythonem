@@ -11,7 +11,7 @@ for i in range(ilosc):
 # sprawdzenie czy poprawnie wpisalem w slownik
 # print(phoneBook)
 # przeszukiwanie slownika
-for i in range(ilosc):
+for j in range(ilosc):
     imieSzukane = input()
     if imieSzukane in phoneBook:
         print("%s=%d" % (imieSzukane, phoneBook[imieSzukane]))
