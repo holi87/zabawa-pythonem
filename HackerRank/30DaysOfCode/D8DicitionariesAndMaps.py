@@ -1,5 +1,5 @@
 ilosc = int(input())
-phoneBook = {} # słownik, klucz: wartosc, kluczem bedzie imie bo po nim szukamy
+phoneBook = {}  # słownik, klucz: wartosc, kluczem bedzie imie bo po nim szukamy
 # wypelnianie slownika
 for i in range(ilosc):
     imie, numer = input().split()
