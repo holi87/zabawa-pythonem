@@ -9,7 +9,9 @@ for j in range(T):
     # for k in range(2):
     try:
         print(int(dzielenie[j][0]) // int(dzielenie[j][1]))
-    except ValueError as v:
-        print ("Error Code:", v)
-    except ZeroDivisionError as z:
-        print("Error Code:", z)
+    except Exception as e:
+        print("Error Code:",e)
+    #except ValueError as v:
+    #    print ("Error Code:", v)
+    #except ZeroDivisionError as z:
+    #    print("Error Code:", z)
