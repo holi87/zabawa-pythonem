@@ -4,6 +4,7 @@ import sys
 
 
 n = int(input().strip())
+# wyciecie kawalka 0b:
 binarny = bin(n)[2:]
 # sprawdzenie czy wyrzucilem 0b
 # print(binarny)
