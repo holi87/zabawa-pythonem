@@ -4,7 +4,7 @@ import sys
 
 
 n = int(input().strip())
-binarny = str(int(bin(n)[2:]))
+binarny = bin(n)[2:]
 # sprawdzenie czy wyrzucilem 0b
 # print(binarny)
 # split po zerach by je usunac
@@ -16,5 +16,4 @@ temp = 0
 for i in range(len(bezZer)):
     if len(bezZer[i]) > temp:
         temp = len(bezZer[i])
-
 print(temp)
