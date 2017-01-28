@@ -1,0 +1,14 @@
+# dziala w Python 3
+## nie działa w Python 3
+
+# Positive Lookahead
+o(?=oo)
+
+# Negative Lookahead
+(\w)(?!\1)|(\W)(?!\2)+
+
+# Positive Lookbehind
+(?<=[13579])\d
+
+# Negative Lookbehind
+(?<![aeiouAEIOU]).
