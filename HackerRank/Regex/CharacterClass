@@ -1,0 +1,8 @@
+# Matching Specific Characters
+^[123][120][xs0][30Aa][xsu][\.\,]$
+
+# Excluding Specific Characters
+^\D[^aeiou][^bcDF]\S[^AEIOU][^\.\,]$
+
+# Matching Character Ranges
+^[a-z][1-9][^a-z][^A-Z]
