@@ -1,0 +1,17 @@
+# Matching Specific String:
+hackerrank
+
+# Matching Anything But a Newline
+...\....\....\....
+
+# Matching Digits & Non-Digit Characters
+\d\d\D\d\d\D\d\d\d\d
+
+# Matching Whitespace & Non-Whitespace Character
+\S\S\s\S\S\s\S\S
+
+# Matching Word & Non-Word Character
+\w{3}\W\w{10}\W\w{3}
+
+# Matching Start & End
+^\d\w{4}\.$
