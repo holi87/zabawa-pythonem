@@ -1,0 +1,14 @@
+# to działa w Pytonie 3
+## To nie działa chyba w Pythonie 3
+
+# Matching Same Text Again & Again
+^([a-z])(\w)(\s)(\W)(\d)(\D)([A-Z])([a-zA-Z])([aeiouAEIOU])(\S)\1\2\3\4\5\6\7\8\9\10$
+
+# Backreferences To Failed Groups
+^\d{2}(-?)\d{2}\1\d{2}\1\d{2}$
+
+## Branch Reset Groups
+^\d{2}(-{3}|\-|\.|\:)\d{2}\1\d{2}\1\d{2}$
+
+## Forward References
+^(\2tic|(tac))+(\1?)$
