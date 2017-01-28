@@ -1,0 +1,14 @@
+# Matching {x} Repetitions
+^[a-zA-z24680]{40}[13579\s]{5}$
+
+# Matching {x, y} Repetitions
+^\d{1,2}[a-zA-Z]{3,}\.{0,3}$
+
+# Matching Zero Or More Repetitions
+^\d{2,}[a-z]*[A-Z]*$
+
+# Matching One Or More Repetitions
+^[0-9]+[A-Z]+[a-z]+$
+
+# Matching Ending Items
+^[a-zA-Z]*s$
