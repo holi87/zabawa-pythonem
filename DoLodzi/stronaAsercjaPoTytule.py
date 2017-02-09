@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from selenium import webdriver
 
-driver = webdriver.Chrome("C:/robotframework/chromedriver.exe")
+driver = webdriver.Chrome()
 
 
 driver.get('http://amberteam.pl')
