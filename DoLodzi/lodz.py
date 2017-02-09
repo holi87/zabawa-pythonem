@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 from selenium import webdriver
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome("C:/robotframework/chromedriver.exe")
+
+
 driver.get('http://amberteam.pl')
 title = driver.title 
 print(title)
 assert title == u'AmberTeam / szkolenia, egzaminy, istqbm, reqb'
-driver.close()
+driver.quit()
