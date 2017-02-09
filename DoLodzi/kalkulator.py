@@ -9,9 +9,9 @@
 
 
 class Kalkulator:
-    def __init__(self, liczba1, liczba2):
-        self.pierwszaLiczba = liczba1
-        self.drugaLiczba = liczba2
+    def __init__(self, parametrPierwszy, parametrDrugi):
+        self.pierwszaLiczba = parametrPierwszy
+        self.drugaLiczba = parametrDrugi
 
     def dodawanie(self):
         return self.pierwszaLiczba + self.drugaLiczba
