@@ -6,7 +6,7 @@ def dzielenie(liczba1, liczba2):
     try:
         return liczba1 / liczba2
     except ZeroDivisionError:
-        return "nie dziel przez zero"
+        return None
 
 
 def mnozenie(liczba1, liczba2):

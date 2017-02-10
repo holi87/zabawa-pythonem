@@ -5,6 +5,8 @@ import unittest
 class TestArytmetyka(unittest.TestCase):
     def testDodawanie(self):
         self.assertEqual(5, dodawanie(3, 2))
+
+    def testDodawanieZUjemna(self):
         self.assertEqual(33, dodawanie(36, -3))
 
     def testMnozenie(self):
@@ -12,7 +14,10 @@ class TestArytmetyka(unittest.TestCase):
 
     def testDzielenie(self):
         self.assertEqual(2, dzielenie(4, 2))
-        self.assertEqual("nie dziel przez zero", dzielenie(3, 0))
+
+    def czyDzielenieZwracaNoneTylkoGdyDzieliPrzezZero(self):
+        self.assertIsNotNone(dzielenie(1, 3))
+        self.assertIsNone(dzielenie(1, 0))
 
 if __name__ == '__main__':
     unittest.main()
