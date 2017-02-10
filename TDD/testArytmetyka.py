@@ -15,7 +15,7 @@ class TestArytmetyka(unittest.TestCase):
     def testDzielenie(self):
         self.assertEqual(2, dzielenie(4, 2))
 
-    def czyDzielenieZwracaNoneTylkoGdyDzieliPrzezZero(self):
+    def testCzyDzielenieZwracaNoneTylkoGdyDzieliPrzezZero(self):
         self.assertIsNotNone(dzielenie(1, 3))
         self.assertIsNone(dzielenie(1, 0))
 
